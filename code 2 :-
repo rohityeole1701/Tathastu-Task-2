@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class FibDemo {
+
+public static void main (String [] args){
+
+int a = 0;
+int b = 1;
+int c = 0;
+
+int no ;
+
+Scanner s = new Scanner (System.in);
+no=s.nextInt();
+
+for (int i = 2; i<=no ; i++){
+
+c= a+b;
+
+System.out.println (c);
+
+a=b;
+b=c;
+
+}
+
+
+
+}
+
+}
