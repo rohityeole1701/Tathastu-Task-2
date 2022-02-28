@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+class Fact{
+
+public static void main(String [] args){
+
+int no;
+int temp =1;
+System.out.println("Enter The No:-");
+
+Scanner s= new Scanner (System.in);
+
+no=s.nextInt();
+
+for(int i = 1; i<=no ; i++){
+
+temp= temp*i;
+
+
+}
+
+System.out.println(temp);
+
+
+
+}
+
+}
